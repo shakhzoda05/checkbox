@@ -36,15 +36,17 @@ body {
 }
 
 .stol-tennis {
+  display: flex;
+  align-items: center;
   font-size: 30px;
   font-family: "Montserrat";
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   cursor: pointer;
 }
 .stol-tennis .custom-checkbox1 {
   border: 3px solid black;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 
 .input-checkbox:checked ~ .custom-checkbox1 {
@@ -56,13 +58,13 @@ body {
 .basketbol {
   font-size: 30px;
   font-family: "Montserrat";
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   cursor: pointer;
 }
 .basketbol .custom-checkbox2 {
   border: 3px solid black;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 
 .input-checkbox:checked ~ .custom-checkbox2 {
@@ -74,13 +76,13 @@ body {
 .voleybol {
   font-size: 30px;
   font-family: "Montserrat";
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   cursor: pointer;
 }
 .voleybol .custom-checkbox3 {
   border: 3px solid black;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 
 .input-checkbox:checked ~ .custom-checkbox3 {
@@ -92,15 +94,15 @@ body {
 .hokkey {
   font-size: 30px;
   font-family: "Montserrat";
-  padding-bottom: 5px;
+  padding-bottom: 3px;
 }
 .hokkey .custom-checkbox4 {
   border: 3px solid black;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 
-.input-checkbox:checked ~ .custom-checkbox4 {
+.input-checkbox:checked + .custom-checkbox4 {
   background-image: url(../images/hockey.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -108,8 +110,28 @@ body {
 
 .btn {
   font-size: 33px;
+  background-color: rgb(118, 174, 118);
   padding: 5px 40px;
   margin-top: 15px;
   margin-left: 20px;
   cursor: pointer;
+}
+
+.sport-balls-type {
+  display: flex;
+  align-items: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */

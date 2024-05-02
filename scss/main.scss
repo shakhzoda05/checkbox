@@ -30,14 +30,16 @@ body {
   }
 }
 .stol-tennis {
+  display: flex;
+  align-items: center;
   font-size: 30px;
   font-family: "Montserrat";
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   cursor: pointer;
   .custom-checkbox1 {
     border: 3px solid black;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
   }
 }
 .input-checkbox:checked ~ .custom-checkbox1 {
@@ -48,12 +50,12 @@ body {
 .basketbol {
   font-size: 30px;
   font-family: "Montserrat";
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   cursor: pointer;
   .custom-checkbox2 {
     border: 3px solid black;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
   }
 }
 .input-checkbox:checked ~ .custom-checkbox2 {
@@ -64,12 +66,12 @@ body {
 .voleybol {
   font-size: 30px;
   font-family: "Montserrat";
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   cursor: pointer;
   .custom-checkbox3 {
     border: 3px solid black;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
   }
 }
 .input-checkbox:checked ~ .custom-checkbox3 {
@@ -80,22 +82,42 @@ body {
 .hokkey {
   font-size: 30px;
   font-family: "Montserrat";
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   .custom-checkbox4 {
     border: 3px solid black;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
   }
 }
-.input-checkbox:checked ~ .custom-checkbox4 {
+.input-checkbox:checked + .custom-checkbox4 {
   background-image: url(../images/hockey.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .btn {
   font-size: 33px;
+  background-color: rgb(118, 174, 118);
   padding: 5px 40px;
   margin-top: 15px;
   margin-left: 20px;
   cursor: pointer;
+}
+.sport-balls-type {
+  display: flex;
+  align-items: center;
+}
+input {
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
