@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.only-chechbox {
+  padding-left: 20px;
+}
+
+.checkbox-section {
+  margin: 10px 150px;
+  align-items: center;
+  background-color: rgba(147, 210, 147, 0.766);
+  width: 1000px;
+  padding-bottom: 80px;
+}
+
+.big-text {
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+.big-text h1 {
+  font-size: 41px;
+}
+
+.stol-tennis {
+  font-size: 30px;
+  font-family: "Montserrat";
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.stol-tennis .custom-checkbox1 {
+  border: 3px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.input-checkbox:checked ~ .custom-checkbox1 {
+  background-image: url(../images/tennis.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.basketbol {
+  font-size: 30px;
+  font-family: "Montserrat";
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.basketbol .custom-checkbox2 {
+  border: 3px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.input-checkbox:checked ~ .custom-checkbox2 {
+  background-image: url(../images/basketball.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.voleybol {
+  font-size: 30px;
+  font-family: "Montserrat";
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.voleybol .custom-checkbox3 {
+  border: 3px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.input-checkbox:checked ~ .custom-checkbox3 {
+  background-image: url(../images/volleyball.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hokkey {
+  font-size: 30px;
+  font-family: "Montserrat";
+  padding-bottom: 5px;
+}
+.hokkey .custom-checkbox4 {
+  border: 3px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.input-checkbox:checked ~ .custom-checkbox4 {
+  background-image: url(../images/hockey.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.btn {
+  font-size: 33px;
+  padding: 5px 40px;
+  margin-top: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
